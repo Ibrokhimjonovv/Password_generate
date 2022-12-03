@@ -1,33 +1,3 @@
-# import random
-# class Password_manager:
-#     sonlar = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
-#     katta_harf = ['A', 'B', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'H', 'Y', 'Z']
-#     kichik_harf = []
-#     belgi = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')']
-#     for i in katta_harf:
-#         kichik_harf.append(i.lower())
-#     parol1 = ''
-#     def __init__(self, ism):
-#         self.ism = ism
-#     def parol(self):
-#         sora = input("Parolni o'zingiz xosil qilmoqchi bo'lsangiz 1 ni bosing\nKomputer tasodifiy parol topishi uchun ENTER ni bosing: ")
-#         if sora == '1':
-#             sora1 = input("Parolni kiriting: ")
-#             if len(sora1) < 8:
-#                 print("Parol kamida 8 ta harf yoki belgidan iborat bo'lishi kerak")
-#             else:
-#                 print("Parolingiz qabul qilindi")
-#         else:
-#             for i in range(2):
-#                 Password_manager.parol1+=random.choice(Password_manager.katta_harf)
-#             for i in range(4):
-#                 Password_manager.parol1+=random.choice(Password_manager.sonlar)
-#             for i in range(2):
-#                 Password_manager.parol1+=random.choice(Password_manager.belgi)
-#             print(f"Ismingiz {self.ism}\nSizning parolingiz {Password_manager.parol1}")
-# a = Password_manager('Maqsadbek')
-# a.parol()
-
 from random import *
 class Tekshiruv:
     def __init__(self, pwd):
